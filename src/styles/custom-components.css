@@ -1,0 +1,35 @@
+.container-fluid {
+  @apply max-w-[1110px] px-6 mx-auto md:px-8 xl:p-0 2xl:max-w-screen-xl;
+}
+
+.btn {
+  @apply text-lg px-8 py-2.5 border-2 rounded-3xl transition;
+
+  &.disabled {
+    @apply opacity-25 pointer-events-none;
+  }
+}
+
+.btn-primary-light {
+  @apply border-primary-white text-primary-white;
+
+  &:hover {
+    @apply bg-primary-white text-secondary-dark-green;
+  }
+}
+
+.btn-primary-dark {
+  @apply border-secondary-sacramento-state-green text-secondary-sacramento-state-green;
+
+  &:hover {
+    @apply bg-secondary-sacramento-state-green text-primary-white;
+  }
+}
+
+.btn-secondary {
+  @apply bg-primary-white border-primary-white text-secondary-dark-green;
+
+  &:hover {
+    @apply bg-secondary-rapture-blue border-secondary-rapture-blue;
+  }
+}
