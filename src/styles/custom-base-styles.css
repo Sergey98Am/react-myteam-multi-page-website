@@ -18,7 +18,7 @@ h3 {
   @apply text-lg font-bold;
 }
 
-p {
+a, p {
   @apply text-lg;
 }
 
