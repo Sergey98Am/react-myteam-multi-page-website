@@ -3,7 +3,7 @@
 }
 
 .btn {
-  @apply text-lg px-8 py-2.5 border-2 rounded-3xl transition;
+  @apply flex px-8 py-2 border-2 rounded-3xl transition;
 
   &.disabled {
     @apply opacity-25 pointer-events-none;
@@ -13,7 +13,8 @@
 .btn-primary-light {
   @apply border-primary-white text-primary-white;
 
-  &:hover {
+  &:hover,
+  &.active {
     @apply bg-primary-white text-secondary-dark-green;
   }
 }
@@ -21,7 +22,8 @@
 .btn-primary-dark {
   @apply border-secondary-sacramento-state-green text-secondary-sacramento-state-green;
 
-  &:hover {
+  &:hover,
+  &.active {
     @apply bg-secondary-sacramento-state-green text-primary-white;
   }
 }
@@ -29,7 +31,17 @@
 .btn-secondary {
   @apply bg-primary-white border-primary-white text-secondary-dark-green;
 
-  &:hover {
+  &:hover,
+  &.active {
     @apply bg-secondary-rapture-blue border-secondary-rapture-blue;
+  }
+}
+
+.navbar,
+.mobile-menu {
+  .nav-items {
+    .active {
+      @apply text-primary-light-coral;
+    }
   }
 }
