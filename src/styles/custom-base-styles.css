@@ -3,11 +3,11 @@ body {
 }
 
 h1 {
-  @apply text-[2.5rem] font-bold leading-10 sm:text-2xl xl:text-3xl;
+  @apply text-lg2 sm:text-2xl xl:text-3xl;
 }
 
 h2 {
-  @apply text-xl;
+  @apply text-lg1 lg:text-xl;
 }
 
 h3 {

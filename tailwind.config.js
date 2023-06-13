@@ -14,6 +14,14 @@ export default {
         "1.125rem" /* 18px */,
         { lineHeight: "1.75rem" /* 28px */, fontWeight: "600" },
       ],
+      lg1: [
+        "2rem" /* 32px */,
+        { lineHeight: "2rem" /* 32px */, fontWeight: "700" },
+      ],
+      lg2: [
+        "2.5rem" /* 40px */,
+        { lineHeight: "2.5rem" /* 40px */, fontWeight: "700" },
+      ],
       xl: [
         "3rem" /* 48px */,
         { lineHeight: "3rem" /* 48px */, fontWeight: "700" },
