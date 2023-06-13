@@ -1,8 +1,10 @@
-import React from 'react'
+import SectionHead from "@/components/SectionHead"
 
 const Home = () => {
   return (
-    <div><h3>Home</h3></div>
+    <>
+      <SectionHead />
+    </>
   )
 }
 
