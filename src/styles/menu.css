@@ -1,0 +1,8 @@
+.navbar,
+.mobile-menu {
+  .nav-items {
+    .active {
+      @apply text-primary-light-coral;
+    }
+  }
+}

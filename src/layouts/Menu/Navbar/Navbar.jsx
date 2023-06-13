@@ -21,7 +21,7 @@ const Navbar = () => {
                 <img src={logo} alt="" />
               </NavLink>
             </div>
-            <div className="nav-items hidden text-primary-white md:block">
+            <div className="nav-items hidden md:block">
               {navLinks.map((nav, index) => (
                 <NavLink
                   key={nav.id}

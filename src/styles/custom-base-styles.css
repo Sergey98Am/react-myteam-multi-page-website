@@ -1,13 +1,9 @@
 body {
-  @apply m-0 text-lg leading-7;
+  @apply m-0 text-lg text-primary-white;
 }
 
 h1 {
-  @apply text-3xl;
-}
-
-.h1-small {
-  @apply text-2xl;
+  @apply text-[2.5rem] font-bold leading-10 sm:text-2xl xl:text-3xl;
 }
 
 h2 {
@@ -21,4 +17,3 @@ h3 {
 .body-2 {
   @apply text-sm;
 }
-

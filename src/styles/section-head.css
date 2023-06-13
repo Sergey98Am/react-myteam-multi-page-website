@@ -1,0 +1,13 @@
+.section-head-left-background {
+  @apply bg-none lg:bg-[url(../assets//bg-pattern-home-1.svg)] lg:bg-no-repeat;
+  background-position: left -100px top 56px;
+}
+
+.section-head-content-background {
+  @apply bg-[url(../assets//bg-pattern-home-2.svg)] bg-no-repeat;
+  background-position: left 50% bottom;
+
+  @screen md {
+    background-position: 100% 100%;
+  }
+}
