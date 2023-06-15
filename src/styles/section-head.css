@@ -7,7 +7,7 @@
   @apply bg-[url(../assets//bg-pattern-home-2.svg)] bg-no-repeat;
   background-position: left 50% bottom;
 
-  @screen md {
+  @screen lg {
     background-position: 100% 100%;
   }
 }

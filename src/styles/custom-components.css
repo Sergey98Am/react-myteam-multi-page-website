@@ -2,6 +2,10 @@
   @apply max-w-[1110px] px-6 mx-auto md:px-8 xl:p-0 2xl:max-w-screen-xl;
 }
 
+.small-screens-section {
+  @apply py-16 md:px-14 md:py-24 lg:py-36 lg:px-0;
+}
+
 .h1-small {
   @apply md:text-2xl;
 }
@@ -45,5 +49,14 @@
   &::before {
     content: "";
     @apply inline-block w-12 h-1 bg-secondary-rapture-blue mb-24;
+  }
+}
+
+.build-team-background {
+  @apply bg-[url(../assets//bg-pattern-home-3.svg)] bg-no-repeat;
+  background-position: right -100px top;
+
+  @screen lg {
+    background-position: right -100px bottom;
   }
 }
