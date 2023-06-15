@@ -2,7 +2,7 @@ const FeedbackCard = (props) => {
   return (
     <div className="feedback-card flex items-center flex-col text-center pt-9">
       <div className="feedback-description mb-4 lg:mb-8">
-        <p className="body-2">{props.description}</p>
+        <p className="body-2">“{props.description}”</p>
       </div>
       <div className="feedback-user">
         <div className="user-info mb-4 lg:mb-8">
