@@ -1,6 +1,6 @@
 import React from "react";
-import advantages from "@/data";
-import HorizontalCard from "../../../components/HorizontalCard";
+import HorizontalCard from "@/components/HorizontalCard";
+import { advantages } from "@/data";
 
 const BuildTeam = () => {
   return (

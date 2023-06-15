@@ -1,0 +1,4 @@
+.feedback-card {
+    @apply bg-[url(../assets/icon-quotes.svg)] bg-no-repeat;
+    background-position: left 50% top;
+}
