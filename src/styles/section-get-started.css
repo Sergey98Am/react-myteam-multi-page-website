@@ -1,0 +1,8 @@
+.get-started {
+  @apply bg-[url(../assets//bg-pattern-home-6-about-5.svg)] bg-no-repeat;
+  background-position: 0 115%;
+
+  @screen lg {
+   background-position: 0 100%; 
+  }
+}
