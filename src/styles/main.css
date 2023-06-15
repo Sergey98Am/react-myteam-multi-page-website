@@ -8,5 +8,7 @@
 
 @import "tailwindcss/utilities";
 
-@import "./section-head.css";
 @import "./menu.css";
+@import "./section-head.css";
+@import "./section-build-team.css";
+@import "./section-testimonials.css";
