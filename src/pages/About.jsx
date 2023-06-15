@@ -1,8 +1,10 @@
-import React from 'react'
+import GetStarted from "@/components/GetStarted"
 
 const About = () => {
   return (
-    <div><h3>About</h3></div>
+    <div>
+      <GetStarted />
+    </div>
   )
 }
 
