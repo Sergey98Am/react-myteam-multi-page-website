@@ -4,7 +4,10 @@ export default {
   mode: "jit",
   theme: {
     fontSize: {
-      xs: ["0.813rem" /* 13px */, "1.125rem" /* 18px */],
+      xs: [
+        "0.813rem" /* 13px */,
+        { lineHeight: "1.125rem" /* 18px */, fontWeight: "500" }
+      ],
       sm: [
         "0.938rem" /* 15px */,
         { lineHeight: "1.563rem" /* 25px */, fontWeight: "600" },

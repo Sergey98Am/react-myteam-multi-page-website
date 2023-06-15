@@ -11,7 +11,7 @@
 }
 
 .btn {
-  @apply flex px-8 py-2 border-2 rounded-3xl transition;
+  @apply flex justify-center px-8 py-2 border-2 rounded-3xl transition;
 
   &.disabled {
     @apply opacity-25 pointer-events-none;
