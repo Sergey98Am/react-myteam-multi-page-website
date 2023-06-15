@@ -13,7 +13,7 @@ const Testimonials = () => {
             </span>
           </h2>
         </div>
-        <div className="grid grid-cols-1 gap-x-7 gap-y-12 md:grid-cols-3">
+        <div className="grid grid-cols-1 gap-x-7 gap-y-12 lg:grid-cols-3">
           {feedbacks.map((item) => (
             <FeedbackCard
               key={item.id}
