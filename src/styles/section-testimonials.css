@@ -1,0 +1,5 @@
+.testimonials {
+  background-image: url(../assets/bg-pattern-home-4-about-3.svg), url(../assets/bg-pattern-home-5.svg);
+  background-repeat: no-repeat;
+  background-position: 0 0, 100% 100%;
+}

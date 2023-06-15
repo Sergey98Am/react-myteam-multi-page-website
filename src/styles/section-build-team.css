@@ -1,0 +1,8 @@
+.build-team {
+    @apply bg-[url(../assets//bg-pattern-home-3.svg)] bg-no-repeat;
+    background-position: right -100px top;
+  
+    @screen lg {
+      background-position: right -100px bottom;
+    }
+  }

@@ -4,7 +4,7 @@ import HorizontalCard from "../../../components/HorizontalCard";
 
 const BuildTeam = () => {
   return (
-    <div className="build-team small-screens-section build-team-background bg-secondary-sacramento-state-green">
+    <div className="build-team small-screens-section bg-secondary-sacramento-state-green">
       <div className="container-fluid text-line before:mb-8 before:bg-primary-light-coral lg:before:mb-14">
         <div className="grid grid-cols-1 gap-x-8 lg:grid-cols-2">
           <div className="title max-w-[75%] mb-14 md:mb-16 lg:mb-0 lg:max-w-[85%]">
