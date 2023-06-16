@@ -1,8 +1,7 @@
-.navbar,
-.mobile-menu {
-  .nav-items {
-    .active {
-      @apply text-primary-light-coral;
-    }
+.navbar .nav-items,
+.mobile-menu .nav-items,
+.footer {
+  .active {
+    @apply text-primary-light-coral;
   }
 }
