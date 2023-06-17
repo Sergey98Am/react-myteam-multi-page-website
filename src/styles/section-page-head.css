@@ -1,0 +1,8 @@
+.page-head {
+  @apply bg-[url(../assets/bg-pattern-about-1-mobile-nav-1.svg)] bg-no-repeat;
+  background-position: right -100px bottom -100px;
+
+  @screen lg {
+    background-position: right -100px bottom;
+  }
+}

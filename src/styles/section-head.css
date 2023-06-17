@@ -1,5 +1,5 @@
 .section-head {
-  @apply bg-none lg:bg-[url(../assets//bg-pattern-home-1.svg)] lg:bg-no-repeat;
+  @apply bg-none lg:bg-[url(../assets/bg-pattern-home-1.svg)] lg:bg-no-repeat;
   background-position: left -100px top 56px;
 
   .container-fluid {
