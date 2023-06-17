@@ -1,13 +1,38 @@
-import React from "react";
+import ctl from "@netlify/classnames-template-literals";
 import HorizontalCard from "@/components/HorizontalCard";
 import { advantages } from "@/data";
 
 const BuildTeam = () => {
+  const containerClasses = ctl(`
+    container-fluid
+    small-responsive-container 
+    text-line 
+    before:mb-8 
+    before:bg-primary-light-coral 
+    lg:before:mb-14
+  `);
+
+  const rowClasses = ctl(`
+    grid 
+    grid-cols-1 
+    gap-x-8 
+    lg:grid-cols-2
+  `);
+
+  const firstColClasses = ctl(`
+    title 
+    max-w-[75%] 
+    mb-14 
+    md:mb-16 
+    lg:mb-0 
+    lg:max-w-[85%]
+  `);
+
   return (
-    <div className="build-team small-screens-section bg-secondary-sacramento-state-green">
-      <div className="container-fluid text-line before:mb-8 before:bg-primary-light-coral lg:before:mb-14">
-        <div className="grid grid-cols-1 gap-x-8 lg:grid-cols-2">
-          <div className="title max-w-[75%] mb-14 md:mb-16 lg:mb-0 lg:max-w-[85%]">
+    <div className="build-team bg-secondary-sacramento-state-green py-16 md:py-24 lg:py-36">
+      <div className={containerClasses}>
+        <div className={rowClasses}>
+          <div className={firstColClasses}>
             <h2>Build & manage distributed teams like no one else.</h2>
           </div>
           <div className="list-content">

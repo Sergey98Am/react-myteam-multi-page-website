@@ -1,3 +1,4 @@
+import ctl from "@netlify/classnames-template-literals";
 import logo from "@/assets/logo.svg";
 import { navLinks } from "@/constants";
 import { footerSocialLinks } from "@/constants";
@@ -5,10 +6,55 @@ import { NavLink } from "react-router-dom";
 import SocialIcon from "../components/SocialIcon";
 
 const Footer = () => {
+
+  const containerClasses = ctl(`
+    container-fluid 
+    flex 
+    flex-col 
+    justify-between 
+    text-center 
+    md:text-start 
+    lg:flex-row
+  `);
+
+  const leftSideClasses = ctl(`
+    left-side 
+    flex 
+    flex-col 
+    items-center 
+    mb-10 
+    md:mb-9 
+    md:flex-row 
+    md:justify-between 
+    md:items-start 
+    lg:mb-0
+  `);
+
+  const rightSideClasses = ctl(`
+    right-side 
+    flex 
+    flex-col 
+    justify-between 
+    md:flex-row 
+    lg:flex-col
+  `);
+
+  const socialMediaClasses = ctl(`
+    social-media 
+    flex 
+    justify-center 
+    items-center 
+    space-x-4 
+    mb-4 
+    md:justify-start 
+    md:md-0 
+    lg:justify-end
+  `);
+
   return (
     <div className="footer bg-secondary-dark-green py-16 md:py-14 lg:py-12">
-      <div className="container-fluid flex flex-col justify-between text-center md:text-start lg:flex-row">
-        <div className="left-side flex flex-col items-center mb-10 md:mb-9 md:flex-row md:justify-between md:items-start lg:mb-0">
+      <div className={containerClasses}>
+        <div className={leftSideClasses}>
           <div className="first-section me-0 mb-6 md:mb-0 lg:me-32">
             <div className="footer-logo mx-auto mb-6 w-24 md:mx-0 md:mb-16 lg:mb-6 lg:w-40">
               <img src={logo} alt="" />
@@ -36,8 +82,8 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="right-side flex flex-col justify-between md:flex-row lg:flex-col">
-          <div className="social-media flex justify-center items-center space-x-4 mb-4 md:justify-start md:md-0 lg:justify-end">
+        <div className={rightSideClasses}>
+          <div className={socialMediaClasses}>
             {footerSocialLinks.map((link) => (
               <SocialIcon key={link.id} link={link.link} icon={link.icon} />
             ))}
