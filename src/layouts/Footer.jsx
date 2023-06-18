@@ -3,7 +3,7 @@ import logo from "@/assets/logo.svg";
 import { navLinks } from "@/constants";
 import { footerSocialLinks } from "@/constants";
 import { NavLink } from "react-router-dom";
-import SocialIcon from "../components/SocialIcon";
+import SocialIcon from "@/components/SocialIcon";
 
 const Footer = () => {
 

@@ -7,6 +7,7 @@
 @import "./custom-components.css";
 
 @import "tailwindcss/utilities";
+@import "./custom-utilities.css";
 
 @import "./menu.css";
 @import "./section-head.css";
