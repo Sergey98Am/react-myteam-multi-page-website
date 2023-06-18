@@ -13,7 +13,7 @@ const About = () => {
               teams shape the best products and experiences. We’ll bring those
               teams to you."
       />
-      <SectionDirectors />
+      <SectionDirectors  />
       <GetStarted />
     </>
   );
