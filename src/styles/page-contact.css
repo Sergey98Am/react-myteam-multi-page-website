@@ -1,0 +1,10 @@
+.contact {
+  background-image: url(../assets/bg-pattern-contact-2.svg);
+  background-repeat: no-repeat;
+  background-position: right -100px bottom -100px;
+
+  @screen md {
+    background-image: url(../assets/bg-pattern-about-2-contact-1.svg), url(../assets/bg-pattern-contact-2.svg);
+    background-position: left -100px top 51px,right -100px bottom;
+  }
+}

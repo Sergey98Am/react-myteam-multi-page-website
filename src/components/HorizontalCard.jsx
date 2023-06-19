@@ -1,7 +1,7 @@
 const HorizontalCard = (props) => {
   return (
     <div className={`horizontal-card flex ${props.cardClasses}`}>
-      <div className={`image mb-4 ${props.imageClasses}`}>
+      <div className={`image ${props.imageClasses}`}>
         <img src={props.data.image} alt="" />
       </div>
       <div className="info flex justify-center flex-col flex-1 space-y-4">

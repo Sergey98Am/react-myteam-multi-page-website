@@ -75,7 +75,7 @@ const MemberCard = (props) => {
       >
         <div className={frontClasses}>
           <div className={`front-content ${cardContentClasses}`}>
-            <div className="user-img mb-4">
+            <div className="user-img mb-4 mx-auto">
               <img
                 className="w-24 h-24 rounded-full border-2 border-secondary-rapture-blue"
                 src={props.data.image}
