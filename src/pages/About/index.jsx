@@ -1,6 +1,7 @@
 import GetStarted from "@/components/GetStarted";
 import PageHead from "@/components/PageHead";
 import SectionDirectors from "./SectionDirectors";
+import Logos from "./Logos";
 
 const About = () => {
   return (
@@ -14,6 +15,7 @@ const About = () => {
               teams to you."
       />
       <SectionDirectors  />
+      <Logos />
       <GetStarted />
     </>
   );
