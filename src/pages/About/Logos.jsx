@@ -9,7 +9,7 @@ const Logos = () => {
         <h2 className="text-center mb-16 md:mb-12 lg:mb-16 ">
           Some of our clients
         </h2>
-        <div className="grid grid-cols-1 gap-y-14 md:grid-cols-5 md:gap-x-10 lg:gap-20">
+        <div className="grid grid-cols-1 gap-y-14 md:grid-cols-5 md:gap-x-10 md:gap-y-10 lg:gap-x-20">
           {logos.map((item) => (
             <Logo
               key={item.id}

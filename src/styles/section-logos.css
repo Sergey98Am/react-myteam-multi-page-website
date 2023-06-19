@@ -1,0 +1,12 @@
+.section-logos {
+  @apply bg-[url(../assets/bg-pattern-about-4.svg)] bg-no-repeat;
+  background-position: left -100px top -100px,100% 100%;
+
+  @screen md {
+    background-position: left 0 top -100px,100% 100%;
+  }
+
+  @screen lg {
+    background-position: 0 0;
+  }
+}

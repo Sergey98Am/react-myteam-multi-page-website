@@ -1,0 +1,10 @@
+.section-directors {
+  background-image: url(../assets/bg-pattern-about-2-contact-1.svg),
+    url(../assets/bg-pattern-home-4-about-3.svg);
+  background-repeat: no-repeat;
+  background-position: left -100px top -100px,100% 100%;
+
+  @screen lg {
+    background-position: left -100px top,100% 100%;
+  }
+}
