@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "@/components/Logo";
-import { logos } from "@/constants";
+import { logos } from "@/data";
 
 const Logos = () => {
   return (
