@@ -42,7 +42,7 @@ const BuildTeam = () => {
                   key={item.id}
                   data={item}
                   cardClasses="items-center flex-col text-center md:flex-row md:items-start md:text-start"
-                  imageClasses="me-0 md:me-6"
+                  imageClasses="mb-4 me-0 md:me-6"
                   titleClasses="text-primary-light-coral"
                 />
               ))}
