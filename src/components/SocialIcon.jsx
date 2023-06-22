@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const SocialIcon = (props) => {
   return (
-    <Link to={{ pathname: props.link }} target="blank"><img src={props.icon} alt="facebook" /></Link>
+    <Link to={{ pathname: props.link }} target="_blank"><img src={props.icon} alt="facebook" /></Link>
   )
 }
 
