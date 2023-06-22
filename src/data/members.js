@@ -37,7 +37,7 @@ export const members = [
       {
         id: "twitter",
         link: "https://www.twitter.com",
-        icon: twitterIcon,
+        icon: linkedinIcon,
       },
       {
         id: "linkedin",
