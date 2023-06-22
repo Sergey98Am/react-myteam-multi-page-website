@@ -5,6 +5,10 @@ export default {
   theme: {
     fontSize: {
       xs: [
+        "0.625rem" /* 10px */,
+        { lineHeight: "0.813rem" /* 13px */, fontWeight: "700" }
+      ],
+      xs1: [
         "0.813rem" /* 13px */,
         { lineHeight: "1.125rem" /* 18px */, fontWeight: "500" }
       ],

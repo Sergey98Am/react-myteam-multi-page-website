@@ -6,7 +6,6 @@ import { NavLink } from "react-router-dom";
 import SocialIcon from "@/components/SocialIcon";
 
 const Footer = () => {
-
   const containerClasses = ctl(`
     container-fluid 
     flex 
@@ -57,7 +56,9 @@ const Footer = () => {
         <div className={leftSideClasses}>
           <div className="first-section me-0 mb-6 md:mb-0 lg:me-32">
             <div className="footer-logo mx-auto mb-6 w-24 md:mx-0 md:mb-16 lg:mb-6 lg:w-40">
-              <img src={logo} alt="" />
+              <NavLink to="/">
+                <img src={logo} alt="" />
+              </NavLink>
             </div>
             <div className="footer-links">
               {navLinks.map((nav, index) => (

@@ -86,7 +86,7 @@ const MemberCard = (props) => {
               <h3 className="member-name text-secondary-rapture-blue">
                 {props.data.name}
               </h3>
-              <h4 className="member-profession text-xs italic">
+              <h4 className="member-profession text-xs1 italic">
                 {props.data.profession}
               </h4>
             </div>

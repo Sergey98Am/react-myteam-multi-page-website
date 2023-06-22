@@ -9,7 +9,7 @@ const FeedbackCard = (props) => {
           <h3 className="feedback-user-name text-secondary-rapture-blue">
             {props.user_name}
           </h3>
-          <h4 className="feedback-user-profession text-xs italic">
+          <h4 className="feedback-user-profession text-xs1 italic">
             {props.profession}
           </h4>
         </div>

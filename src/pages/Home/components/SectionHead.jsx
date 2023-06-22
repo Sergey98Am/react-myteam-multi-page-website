@@ -34,7 +34,7 @@ const SectionHead = () => {
   `);
 
   return (
-    <div className="section-head bg-primary-midnight-green pt-12">
+    <div className="section-head bg-primary-midnight-green pt-8 md:pt-14 lg:pt-11">
       <div className="container-fluid">
         <div className={rowClasses}>
           <div className={firstColClasses}>

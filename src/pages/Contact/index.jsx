@@ -1,15 +1,18 @@
 import HorizontalCard from "@/components/HorizontalCard";
 import { questions } from "@/data";
 import ctl from "@netlify/classnames-template-literals";
+import Form from "./components/Form";
 
 const Contact = () => {
 
   const contactClasses = ctl(`
     contact 
     bg-primary-midnight-green 
-    pt-12 
-    pb-20 
+    pt-8 
+    pb-20
+    md:pt-14 
     md:pb-28
+    lg:pt-11
   `)
 
   const rowClasses = ctl(`
@@ -24,7 +27,9 @@ const Contact = () => {
     flex 
     flex-col 
     items-center 
+    mb-16
     lg:items-start
+    lg:mb-0
   `)
 
   const titleClasses = ctl(`
@@ -50,7 +55,7 @@ const Contact = () => {
         <div className={rowClasses}>
           <div className={firstSectionClasses}>
             <h1 className={titleClasses}>Contact</h1>
-            <div className="list">
+            <div className="list w-full">
               <p className={subTitleClasses}>
                 Ask us about
               </p>
@@ -68,6 +73,9 @@ const Contact = () => {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="second-section">
+            <Form />
           </div>
         </div>
       </div>

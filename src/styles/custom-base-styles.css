@@ -17,3 +17,25 @@ h3 {
 .body-2 {
   @apply text-sm;
 }
+
+input[type="text"],
+textarea {
+  @apply w-full text-sm bg-transparent border-b-2 border-primary-white pb-4 px-3 placeholder:opacity-60;
+}
+
+textarea {
+  @apply pb-0 min-h-[5.25rem];
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #ffffff;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+*:focus {
+  outline: none;
+}

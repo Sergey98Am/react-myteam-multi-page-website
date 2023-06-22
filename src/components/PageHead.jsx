@@ -33,7 +33,7 @@ const PageHead = ({ title, description }) => {
   `);
 
   return (
-    <div className="page-head bg-primary-midnight-green pt-12 pb-28">
+    <div className="page-head bg-primary-midnight-green pt-8 pb-28 md:pt-14 lg:pt-11">
       <div className="container-fluid">
         <div className={rowClasses}>
           <div className={firstColClasses}>
