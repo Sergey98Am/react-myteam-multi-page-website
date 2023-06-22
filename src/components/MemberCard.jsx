@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import iconCross from "@/assets/icon-cross.svg";
+import avatarNikita from "@/assets/avatar-nikita.jpg";
 import ctl from "@netlify/classnames-template-literals";
 import SocialIcon from "./SocialIcon";
 
@@ -57,7 +58,8 @@ const MemberCard = (props) => {
 
   const socialMediaClasses = ctl(`
     flex
-    social-media z
+    social-media
+    space-x-4 
     mb-4 
     md:justify-start 
     md:md-0 
