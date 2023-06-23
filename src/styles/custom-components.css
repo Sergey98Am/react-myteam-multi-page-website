@@ -67,19 +67,3 @@
 .field-error-text {
   @apply px-3 text-primary-light-coral italic text-xs;
 }
-
-.member-front {
-  transform: perspective(600px) rotateY(0deg);
-
-  &.active {
-    transform: perspective(600px) rotateY(-180deg);
-  }
-}
-
-.member-back {
-  transform: perspective(600px) rotateY(180deg);
-
-  &.active {
-    transform: perspective(600px) rotateY(0deg);
-  }
-}

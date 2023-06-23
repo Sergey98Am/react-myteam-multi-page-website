@@ -1,0 +1,21 @@
+.member-front,
+.member-back {
+  transition: transform 0.6s linear;
+  backface-visibility: hidden;
+}
+
+.member-front {
+  transform: perspective(1000px) rotateY(0deg);
+
+  &.member-card-rotate {
+    transform: perspective(1000px) rotateY(-180deg);
+  }
+}
+
+.member-back {
+  transform: perspective(1000px) rotateY(180deg);
+
+  &.member-card-rotate {
+    transform: perspective(1000px) rotateY(0deg);
+  }
+}
