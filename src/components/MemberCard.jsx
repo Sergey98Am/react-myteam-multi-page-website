@@ -26,6 +26,7 @@ const MemberCard = (props) => {
     px-12 
     pt-8 
     pb-14
+    z-20
   `);
 
   const backClasses = ctl(`
@@ -39,6 +40,7 @@ const MemberCard = (props) => {
     px-12 
     pt-8 
     pb-14
+    z-10
   `);
 
   const buttonClasses = ctl(`
