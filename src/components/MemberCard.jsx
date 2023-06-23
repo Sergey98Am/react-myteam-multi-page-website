@@ -57,13 +57,10 @@ const MemberCard = (props) => {
   `);
 
   const socialMediaClasses = ctl(`
-    flex
     social-media
     space-x-4 
     mb-4 
-    md:justify-start 
     md:md-0 
-    lg:justify-end
   `);
 
   return (

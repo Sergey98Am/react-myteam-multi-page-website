@@ -1,6 +1,6 @@
 const SocialIcon = (props) => {
   return (
-    <a href={props.link} target="blank"><img src={props.icon} alt="facebook" /></a>
+    <a className="inline-block" href={props.link} target="blank"><img src={props.icon} alt="facebook" /></a>
   )
 }
 
