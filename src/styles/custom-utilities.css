@@ -1,3 +1,7 @@
+.my-rotate-y-0 {
+  transform: rotateY(0deg);
+}
+
 .my-rotate-y-180 {
   transform: rotateY(180deg);
 }
