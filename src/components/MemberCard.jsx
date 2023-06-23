@@ -98,19 +98,19 @@ const MemberCard = (props) => {
           </button>
         </div>
         <div className={backClasses}>
-          <div className={`back-content ${cardContentClasses}`}>
+          {/* <div className={`back-content ${cardContentClasses}`}>
             <h3 className="member-name text-secondary-rapture-blue mb-2">
               {props.data.name}
             </h3>
             <p className="member-text body-2 mb-6">
               “{props.data.text}”
-            </p>
+            </p> */}
             <div className={socialMediaClasses}>
               {props.data.socialMedia.map((link) => (
                 <SocialIcon key={link.id} link={link.link} icon={link.icon} />
               ))}
             </div>
-          </div>
+          {/* </div> */}
           <button
             className={`bg-secondary-rapture-blue ${buttonClasses}`}
             onClick={() => setFlip(!flip)}
