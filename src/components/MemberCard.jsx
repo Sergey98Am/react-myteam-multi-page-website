@@ -105,7 +105,7 @@ const MemberCard = (props) => {
             <p className="member-text body-2 mb-6">
               “{props.data.text}”
             </p> */}
-            <div className={socialMediaClasses}>
+            <div>
               {props.data.socialMedia.map((link) => (
                 <SocialIcon key={link.id} link={link.link} icon={link.icon} />
               ))}
