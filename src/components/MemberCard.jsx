@@ -68,7 +68,7 @@ const MemberCard = (props) => {
   return (
     <div className={cardClasses}>
       <div
-        className={`relative preserve-3d card-content w-full h-full duration-1000 ${
+        className={`relative card-content w-full h-full duration-1000 ${
           flip ? "my-rotate-y-180" : ""
         }`}
       >
